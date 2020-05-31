@@ -168,7 +168,7 @@ EOF
 	#设置伪装站
 	rm -rf /usr/share/nginx/html/*
 	cd /usr/share/nginx/html/
-	wget https://github.com/KYLELI1991/pub/blob/master/sysuccweb.zip
+	wget https://raw.githubusercontent.com/KYLELI1991/pub/master/sysuccweb.zip
     	unzip sysuccweb.zip
 	systemctl stop nginx
 	sleep 5
